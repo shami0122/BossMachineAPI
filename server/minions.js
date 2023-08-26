@@ -10,7 +10,7 @@ minionsRouter.param('minionId', (req, res, next, id) => {
     }
     else{
         res.status(404).send();
-    }
+    } 
 })
 
 minionsRouter.get('/', (req, res) => {
